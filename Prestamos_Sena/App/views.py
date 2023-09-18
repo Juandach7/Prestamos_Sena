@@ -16,6 +16,9 @@ def index(request):
 
     return render(request, 'html/acceso.html')
 
+def registro(request):
+    
+    return render(request, 'html/registro.html')
 
 def devoluciones(request):
 

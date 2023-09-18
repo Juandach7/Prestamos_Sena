@@ -30,6 +30,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('acceso/', views.index, name='acceso'),
     path('registro/', registroViews.registro, name='registro'),
+    path('registro/', views.registro, name='registro'),
     path('registrar/', registroViews.registrar, name='guardar_registro'),
     
     path('prestamos/', prestamoViews.prestamos, name='prestamos'),
