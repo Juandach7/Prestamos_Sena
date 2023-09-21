@@ -27,3 +27,7 @@ def devoluciones(request):
 def inventario(request):
 
     return render(request, 'html/inventario.html')
+
+def home(request):
+
+    return render(request, 'html/home.html')
